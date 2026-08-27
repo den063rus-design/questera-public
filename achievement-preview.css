@@ -1,0 +1,30 @@
+.achievement-preview {
+  grid-template-columns: auto 1fr;
+}
+
+.achievement-icon {
+  width: 64px;
+  height: 64px;
+  display: block;
+  object-fit: contain;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.achievement-preview > span {
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+}
+
+.achievement-preview > span strong {
+  color: #f5f7fa;
+}
+
+@media (max-width: 760px) {
+  .achievement-icon {
+    width: 72px;
+    height: 72px;
+  }
+}
