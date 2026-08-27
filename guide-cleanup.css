@@ -1,4 +1,4 @@
 /* На страницах остаётся только встроенная полная версия мануала. */
-.manual-section + .guide-section {
+.guide-section + .guide-section {
   display: none;
 }
