@@ -1,0 +1,4 @@
+/* Полный мануал продолжает основную страницу и должен быть виден. */
+.manual-section + .guide-section {
+  display: block;
+}
