@@ -1,0 +1,13 @@
+{
+  "name": "КвестЭра — городские квесты",
+  "short_name": "КвестЭра",
+  "description": "Городские квесты, маршруты и задания с геолокацией.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090d17",
+  "theme_color": "#15213a",
+  "lang": "ru",
+  "icons": [
+    { "src": "/favicon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
